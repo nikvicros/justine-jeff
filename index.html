@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Justine + Jeff | Bridesmaid Response</title>
+	<meta name="description" content="Some inspiration for playful hover interactions on words" />
+	<meta name="keywords" content="typography, effects, interaction, hover, animation, javascript, css, web design" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Nunito:400,700|Barrio" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Fredericka+the+Great" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/crossword.css" />
+	
+
+	<!-- Milligram CSS minified -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.min.css">
+	<script>
+		document.documentElement.className = "js";
+		var supportsCssVars = function () {
+			var e, t = document.createElement("style");
+			return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports &&
+				window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e
+		};
+		supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+	</script>
+</head>
+
+<body class="demo-crossword">
+
+	<main>
+		<div class="content content--fixed">
+			<header class="codrops-header">
+				<div class="codrops-links">
+					<a class="codrops-icon codrops-icon--prev" href="https://tympanus.net/Development/TooltipAnimations/" title="Previous Demo">
+						<svg class="icon icon--arrow">
+							<use xlink:href="#icon-arrow"></use>
+						</svg>
+					</a>
+					<a class="codrops-icon codrops-icon--drop" href="https://tympanus.net/codrops/?p=31349" title="Back to the article">
+						<svg class="icon icon--drop">
+							<use xlink:href="#icon-drop"></use>
+						</svg>
+					</a>
+				</div>
+
+			</header>
+			<p class="codrops-header__tagline">Scroll down for my message</p>
+			<p class="deco">Hover over the letters</p>
+		</div>
+		<section class="content content--layout">
+			<h2 class="word word--crossword">
+				<span class="word__main" data-column="1" data-row="4">Justine + Jeff</span>
+				<span class="word__cross" data-column="1" data-row="1">24 JUNE</span>
+				<span class="word__cross" data-column="2" data-row="3">TUX</span>
+				<span class="word__cross" data-column="3" data-row="1">DRESS</span>
+				<span class="word__cross" data-column="4" data-row="1">GARTER</span>
+				<span class="word__cross" data-column="5" data-row="1">FAMILY</span>
+				<span class="word__cross" data-column="6" data-row="2">DANCE</span>
+				<span class="word__cross" data-column="7" data-row="1">CAKE</span>
+				<span class="word__cross" data-column="8" data-row="1"></span>
+				<span class="word__cross" data-column="9" data-row="1"></span>
+				<span class="word__cross" data-column="10" data-row="1"></span>
+				<span class="word__cross" data-column="11" data-row="4">JOY</span>
+				<span class="word__cross" data-column="12" data-row="1">FRIENDS</span>
+				<span class="word__cross" data-column="13" data-row="2">WIFE</span>
+				<span class="word__cross" data-column="14" data-row="4">FUN</span>
+			</h2>
+		</section>
+		<section id="next-section" class="the-message">
+			<div class="container">
+
+				<h4>Justine & Jeff</h4>
+
+				<p>I have considered your offer and decided to accept on terms: Red & gold table 
+					cloths will not used in the making of this wedding, and the song 'Cable Car'
+					(over my head) by The Fray be played at the reception. In all seriousness, I 
+					would be honored to be part of your special day. I'll start prepping my craft
+					supplies.
+				</p>
+				<p>Love, Emily</p>
+
+			</div>
+			
+
+		</section>
+	</main>
+	<script src="js/charming.min.js"></script>
+	<script src="js/anime.min.js"></script>
+	<script src="js/demo.js"></script>
+	<script src="js/demo7.js"></script>
+</body>
+
+</html>
